@@ -1,0 +1,257 @@
+.foot{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2388c2;
+    color: #e8f7ff;
+    flex-direction: row;
+    padding: 50px;
+    
+}
+
+
+h3{
+    border-style: solid;
+    border-color: white;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    font-size:1.1em;
+    padding: 5px;
+}
+.flex4
+{
+    background-color:#2183b8 ;
+    display:flex ;
+    padding: 20px;
+    font-size: 13px;
+    flex-direction: row;
+    flex: 50%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+span{
+    color: white;
+}
+span a
+{
+    color: white;
+    text-decoration: none;
+}
+span:hover a{
+    color: white;
+}
+.copyright,.customer
+{
+    padding: 2px 150px;
+}
+.customer a{
+    color: white;
+    padding: 3px;
+}
+.d5
+{
+    display: flex;
+    flex-direction: row;
+    height: 450px;
+}
+.img3 img{
+    width: 100%;
+    height: 450px;
+}
+.c3
+{
+    width: 100%;
+    height: 450px;
+    background-color: #22689e;
+    padding: 0px 50px;
+    flex-direction: row;
+}
+.content3{
+    padding: 80px 30px;     
+}
+.content3 h1{
+    font-size: xx-large;
+    color: white;
+    font-weight: lighter;
+} 
+.boxes{
+    width:50% 50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+ .box2{
+    padding: 10px;     
+    flex:1;
+    position:relative;
+    margin-top: 100px;
+    
+}
+.box1{
+  padding: 20px;
+  flex: 1;
+}
+
+.form{    
+    border-color: #e1e1e1;
+    background-color: #fcfcfc;
+    color: #919191;
+}
+.button{
+    background-color: #40a8e4;
+    color: #ffffff;
+    border-color: #2086c2;
+    padding: 16px 20px;
+    border-radius: 2px;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    font-weight: normal;
+    font-size: 0.92em;
+    min-width: 142px;
+    outline: none;
+}
+.wcard
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:row;
+}
+.bluecard{
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    line-height:1.65em;
+    display:block;
+    margin-bottom: 20px;
+    width:250px;
+    padding:40px;
+    background-color:#379cd6;
+    height:250px;
+    border-color:#e1e1e1;
+    position:absolute;
+    margin-top:20px;
+}
+.foreimg{
+    width:50% 50%;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    margin: 30px;  
+}
+.t1 .t2{
+    padding:10px;     
+    flex:1;
+}
+.t2{
+    vertical-align: middle;
+    /* height: 500px; */
+    min-height: 00px;
+
+}
+.t1 .content1{
+    color: #e1e1e1;
+    display: block;
+    padding:70px;
+    min-height: 500px;
+    background-color: #22689e;
+
+}
+.img1 img{
+    width: 100%;
+    height: 500px;
+}
+.dropdowns{
+    display:flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        background-color:gainsboro;
+  
+  } 
+    .dropdown a{
+        text-decoration: none;
+        border: 2px solid transparent;
+        color:#666666;
+        padding: 10px;
+        position: relative;
+        display:inline-block;
+    }
+    
+    .dropdown:hover a{
+        color: black;
+        background-color: #e1e1e1;
+    }
+    .dropdown-content {
+        display:block;
+        position: absolute;
+        background-color:white;
+        z-index: 1;
+  
+    }
+    .dropdown-content a{
+        display: none;
+    }
+    .dropdown:hover .dropdown-content a{
+        display: block;
+        position: relative;
+        z-index: 1;
+        color: black;
+        background-color: #e1e1e1;
+    }
+  
+
+@media (max-width:800px) { 
+    .foot{
+        flex-direction: column;
+        /* position: relative; */
+        padding: 30px 20px;
+        
+
+    }
+    .flex4{
+        flex-direction: column;
+        /* position: relative; */
+        padding: 20px 0px;
+        
+    }
+    .d5{
+        flex-direction: column;
+        height: auto;
+    }
+    .c3
+    {
+        flex-direction: column;
+        padding: 0px;
+        height: auto;
+    } 
+    .boxes{
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+    }
+    .wcard{
+        flex-direction: column;
+        height:30px;
+        
+
+    }
+    .foreimg{
+        flex-direction: column;
+        width:100%;
+        
+    }
+    .dropdown{
+        display: none;
+    }
+}
